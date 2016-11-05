@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Iteration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-109.000000, -313.000000)" fill="#0000FF">
+            <g id="Page-1" transform="translate(109.000000, 313.000000)">
+                <path d="M42.4615385,0 L70.1538462,29.1891892 L70.1538462,0 L42.4615385,0 Z M46.8584002,1.91945743 L68.3328224,1.91945743 L68.3328224,24.5556189 L46.8584002,1.91945743 Z" id="Fill-1"></path>
+                <path d="M1.84615385,72 L29.5384615,72 L1.84615385,42.8108108 L1.84615385,72 Z M3.66711769,47.4443811 L25.1417443,70.0805426 L3.66711769,70.0805426 L3.66711769,47.4443811 Z" id="Fill-2"></path>
+                <polygon id="Fill-3" points="0 0 67.4745213 70.0540541 53.2561403 70.0540541 2.26227076 17.1107027 2.26227076 19.8622703 52.4801833 72 72 72 4.52547866 1.94594595 18.7429226 1.94594595 69.7367921 54.8892973 69.7367921 52.1377297 19.5188796 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

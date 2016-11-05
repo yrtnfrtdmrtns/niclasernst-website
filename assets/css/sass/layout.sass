@@ -1,0 +1,341 @@
+#header
+	padding: 82px 0 82px
+	background-color: #fff
+
+	nav
+		text-align: right
+
+		a
+			margin-right: 100px
+			text-transform: uppercase
+			color: #9c9c9c
+			font-size: 12px
+			font-weight: 600
+			letter-spacing: 2px
+
+			&:last-child
+				margin-right: 0
+
+			&.active
+				color: #313131
+
+	&.projects-detail
+		background-color: #252525
+
+		nav
+			a
+				color: #a5a5a5
+
+				&.active
+					color: #fff
+
+#primer
+	padding: 10px 0px 96px
+	background-color: #fff
+
+	h2
+		font-size: 36px
+
+#primer-image
+	background-color: #fff
+
+	.image
+		height: 630px
+		background-color: #ededed
+
+#contact
+	padding: 168px 0 68px
+	background-color: #fff
+
+	h3
+		a
+			color: #313131
+			font-size: 30
+
+	.button
+		color: #ababab
+		font-size: 18px
+		display: block
+		margin-top: 44px
+
+		&:after
+			content: url('../images/arrow-right.svg')
+			margin-left: 16px
+
+#about, #what-i-believe-in, #expertise, #process
+	padding: 0 0 180px
+	background-color: #fff
+
+	h3
+		color: #313131
+		font-size: 30px
+
+	p
+		color: #313131
+		font-size: 22px
+
+	&.projects-detail
+		background-color: #252525
+		padding-top: 100px
+		padding-bottom: 0
+		
+		span
+			color: #464646
+		h3
+			color: #fff
+			font-size: 30px
+
+		p
+			color: #626262
+			font-size: 22px
+
+
+#selected-projects
+	margin-bottom: 232px
+	background-color: #fff
+
+	span
+		margin-bottom: 46px
+
+	.project
+		.image
+			background-color: #e6e6e6
+			width: 100%
+			height: 450px
+			margin-bottom: 42px
+
+		span
+			margin-bottom: 24px
+
+		h4
+			font-size: 22px
+			font-weight: 300
+
+#collaborations
+	background-color: #fff
+
+	img
+		width: 200px
+		margin-right: 62px
+		margin-bottom: 30px
+
+		&:nth-of-type(3)
+			margin-right: 0
+
+#project-slider
+	padding-bottom: 192px
+	background-color: #fff
+	position: relative
+
+	.project-slider
+
+		.project
+			background-color: #ededed
+			width: 100%
+			height: 500px
+			position: relative
+
+			.project-inner
+				position: absolute
+				width: 516px
+				height: 400px
+				left: 0
+				top: 50px
+				background-color: #fff
+				padding-top: 66px
+				cursor: pointer
+
+				span
+					margin-bottom: 82px
+					color: #515151
+					display: inline-block
+
+					span
+						color: #a5a5a5
+						margin-bottom: 0
+						display: inline-block
+
+				h2
+					color: #313131
+
+				.button
+					color: #ababab
+					font-size: 18px
+					display: block
+					margin-top: 44px
+
+					&:after
+						content: url('../images/arrow-right.svg')
+						margin-left: 16px
+				&:hover
+					background-color: #252525
+
+					span
+						color: #fff
+						
+						span
+							color: #515151
+
+					h2
+						color: #fff
+
+		.slick-prev, .slick-next
+			position: absolute
+			bottom: -124px
+			z-index: 2
+
+		.slick-prev
+			left: 50%
+			transform: translateX(-50%)
+			background-color: transparent
+			border: none
+			margin-left: -95px
+
+			&:after
+				content: url('../images/arrow-right-black.svg')
+				transform: rotate(-180deg)
+				display: block
+				padding-top: 6px
+
+
+		.slick-next
+			left: 50%
+			transform: translateX(-50%)
+			background-color: transparent
+			border: none
+			margin-left: 91px
+
+			&:after
+				content: url('../images/arrow-right-black.svg')
+
+
+		&.projects-detail
+			.slick-prev, .slick-next
+				position: absolute
+				bottom: auto
+				top: -45px
+				right: 0
+				z-index: 2
+
+			.slick-prev
+				left: auto
+				transform: none
+				background-color: transparent
+				border: none
+				right: 204px
+				margin-left: 0
+				top: -50px
+
+				&:after
+					content: url('../images/arrow-right-black.svg')
+					transform: rotate(-180deg)
+					display: block
+
+
+			.slick-next
+				left: auto
+				transform: none
+				background-color: transparent
+				border: none
+				margin-left: 0
+
+				&:after
+					content: url('../images/arrow-right-black.svg')
+
+	&.projects-detail
+		background-color: #252525
+		padding-bottom: 0
+
+		.project-slider
+			.project
+				background-color: #1D1D1D
+
+
+	.project-slider-pagination
+		position: relative
+		margin-top: 98px
+		text-align: center
+		font-size: 16px
+
+		&.projects-detail
+			position: relative
+			margin-top: 0
+			text-align: right
+			margin-right: 90px
+
+#statistics
+	background-color: #252525
+	padding-top: 134px
+
+	span
+		color: #464646
+
+	h3
+		color: #fff
+		font-size: 30px
+
+	.statistics
+		margin-top: 45px
+
+		.statistic
+			position: relative
+
+			p
+				font-size: 22px
+				color: #7f7f7f
+				margin-bottom: 16px
+
+				span
+					font-size: 22px
+					font-weight: 300
+					text-transform: none
+					color: #fff
+					margin-bottom: 0
+					position: absolute
+					left: 164px
+					top: 0
+
+#project-images
+	background-color: #252525
+	padding-top: 86px
+
+	.image
+		background-color: #1d1d1d
+		width: 100%
+		height: 448px
+
+#page-navigation
+	background-color: #252525
+	padding: 100px 0
+
+	.button
+		color: #3f3f3f
+		font-size: 18px
+
+		&:nth-of-type(1)
+			margin-left: 62px
+			float: left
+
+			&:after
+				display: none
+
+			&:before
+				content: url('../images/arrow-right-black.svg')
+				transform: rotate(-180deg)
+				position: absolute
+				left: 0
+				top: -3px
+
+		&:nth-of-type(2)
+			margin-right: 62px
+			float: right
+
+			&:before
+				content: url('../images/arrow-right-black.svg')
+				position: absolute
+				right: 0
+				top: 1px
+
+
+
+
