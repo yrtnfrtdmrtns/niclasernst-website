@@ -12,23 +12,39 @@
 		</head>
 
 		<body>
+			<div id="fakeLoader"></div>
+			
 			<div class="container-fluid">
 				<div class="row" id="header">
 					<div class="container">
-						<div class="col-xs-6 col-sm-3">
+						<div class="col-xs-6 col-sm-6 col-md-3">
 							<a href="index.php">
 								<img src="assets/images/niclasernst.svg">
 							</a>
 						</div>
 
-						<div class="col-xs-6 col-sm-9">
+						<div class="col-xs-6 col-sm-6 col-md-9">
 							<nav>
 								<a class="active" href="index.php">About</a>
 								<a href="projects.php">Projects</a>
-								<a href="https://www.instagram.com/niclasernst/">Photography</a>
-								<a href="https://dribbble.com/niclasernst">Dribbble</a>
-								<a href="https://twitter.com/niclasernst">Twitter</a>
+								<a href="https://www.instagram.com/niclasernst/" target="_blank">Photography</a>
+								<a href="https://dribbble.com/niclasernst" target="_blank">Dribbble</a>
+								<a href="https://twitter.com/niclasernst" target="_blank">Twitter</a>
 							</nav>
+
+							<img class="nav-icon" src="assets/images/nav-gray.svg" />
+
+							<div class="responsive-nav">
+								<img class="nav-icon-close" src="assets/images/close-white.svg">
+
+								<nav>
+									<a class="active" href="index.php">About</a>
+									<a href="projects.php">Projects</a>
+									<a href="https://www.instagram.com/niclasernst/" target="_blank">Photography</a>
+									<a href="https://dribbble.com/niclasernst" target="_blank">Dribbble</a>
+									<a href="https://twitter.com/niclasernst" target="_blank">Twitter</a>
+								</nav>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -172,6 +188,7 @@
 			</div>
 
 			<script type="text/javascript" src="assets/javascript/libraries/jquery.min.js"></script>
+			<script type="text/javascript" src="assets/javascript/libraries/fakeloader.min.js"></script>
 			<script type="text/javascript" src="assets/javascript/libraries/slick.min.js"></script>
 			<script type="text/javascript" src="assets/javascript/init.js"></script>
 		</body>

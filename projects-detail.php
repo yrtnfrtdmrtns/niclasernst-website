@@ -11,7 +11,7 @@
 			<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		</head>
 
-		<body>
+		<body>		
 			<div class="container-fluid">
 				<div class="row projects-detail" id="header">
 					<div class="container">
@@ -29,6 +29,20 @@
 								<a href="https://dribbble.com/niclasernst" target="_blank">Dribbble</a>
 								<a href="https://twitter.com/niclasernst" target="_blank">Twitter</a>
 							</nav>
+
+							<img class="nav-icon" src="assets/images/nav-white.svg" />
+
+							<div class="responsive-nav">
+								<img class="nav-icon-close" src="assets/images/close-white.svg">
+
+								<nav>
+									<a href="index.php">About</a>
+									<a class="active" href="projects.php">Projects</a>
+									<a href="https://www.instagram.com/niclasernst/">Photography</a>
+									<a href="https://dribbble.com/niclasernst">Dribbble</a>
+									<a href="https://twitter.com/niclasernst">Twitter</a>
+								</nav>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +72,7 @@
 						</div>
 
 						<div class="statistics">
-							<div class="col-xs-12 col-sm-4">
+							<div class="col-xs-12 col-sm-8 col-md-4">
 								<div class="row">
 									<div class="statistic">
 										<p>Duration <span>March 2016</span></p>
@@ -78,7 +92,7 @@
 								</div>
 							</div>
 
-							<div class="col-xs-12 col-sm-4">
+							<div class="col-xs-12 col-sm-12 col-md-4">
 								<div class="row">
 									<div class="statistic">
 										<p>Role<span>User Experience</span></p>
@@ -160,6 +174,7 @@
 			</div>
 
 			<script type="text/javascript" src="assets/javascript/libraries/jquery.min.js"></script>
+			<script type="text/javascript" src="assets/javascript/libraries/fakeloader.min.js"></script>
 			<script type="text/javascript" src="assets/javascript/libraries/slick.min.js"></script>
 			<script type="text/javascript" src="assets/javascript/init.js"></script>
 		</body>

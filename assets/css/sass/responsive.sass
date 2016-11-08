@@ -1,0 +1,386 @@
+/* ///////////////////// Tablet ///////////////////// */
+
+@media (max-width: 992px)
+	.container
+		min-width: 750px
+		width: 750px
+
+	#header
+		padding: 72px 0 100px
+
+		nav
+			display: none
+
+		.nav-icon
+			display: block
+			float: right
+			margin-top: 8px
+			cursor: pointer
+
+		.responsive-nav
+			display: block
+			position: fixed
+			width: 100%
+			height: 100vh
+			right: -100%
+			top: 0
+			z-index: 2
+			background-color: #1d1d1d
+
+			img
+				position: absolute
+				top: 15%
+				left: 50%
+				margin-right: 50%
+				transform: translate(-50%,-15%)
+				cursor: pointer
+
+			nav
+				display: block
+				position: absolute
+				top: 50%
+				left: 50%
+				margin-right: -50%
+				transform: translate(-50%, -50%)
+
+				a
+					display: block
+					margin: 0
+					text-align: center
+					margin-bottom: 5vh
+					color: #fff
+
+					&.active
+						color: #4a4a4a
+
+					&:hover
+						color: #4a4a4a
+
+			&.active
+				right: 0
+				transition: .2s all
+
+	#primer
+		padding: 0 0 168px
+
+	#primer-image
+		.container
+			width: 100%
+			padding: 0
+
+		.col-xs-12
+			width: 100%
+			padding: 0
+
+		.image
+			height: 418px
+
+	#contact
+		padding: 92px 0 110px
+
+		h3
+			a
+				font-size: 16px
+
+		.button
+			font-size: 14px
+			margin-top: 46px
+
+	#about, #what-i-believe-in, #expertise, #process
+		padding-bottom: 100px
+
+		h3
+			font-size: 24px
+
+		p
+			font-size: 16px
+
+		&.projects-detail
+			padding-top: 52px
+			
+			h3
+				color: #fff
+				font-size: 24px
+
+			p
+				color: #626262
+				font-size: 16px
+
+	#selected-projects
+		margin-bottom: 138px
+
+		.project
+			.image
+				height: 305px
+				margin-bottom: 24px
+
+			span
+				margin-bottom: 16px
+
+	#collaborations
+		img
+			width: 150px
+
+			&:nth-of-type(odd)
+				margin-right: 62px 
+
+	#project-slider
+		.project-slider
+			.project
+				height: 725px
+
+				.project-inner
+					top: 162px
+					width: 462px
+
+			.slick-prev, .slick-next
+				bottom: -58px
+
+		.project-slider-pagination
+			margin-top: 32px
+
+		&.projects-detail
+			.container
+				width: 100%
+				padding: 0
+
+			.project-slider
+				padding-bottom: 0
+
+				.project
+					height: 338px
+
+				&.projects-detail
+					.slick-prev, .slick-next
+						display: none !important
+
+			.project-slider-pagination
+				display: none
+
+	#statistics
+		padding-top: 60px
+
+		h3
+			font-size: 24px
+
+		.statistics
+			.statistic
+				position: relative
+
+				p
+					font-size: 16px
+					float: right
+					margin-right: 200px
+
+					span
+						font-size: 16px
+						color: #fff
+						left: auto
+						right: 0
+
+				.col-sm-12
+					p
+						font-size: 16px
+						float: right
+						margin-right: 200px
+
+						span
+							font-size: 16px
+							color: #fff
+							left: auto
+							right: 0
+
+	#project-images
+		padding-top: 76px
+
+		.image
+			height: 246px
+
+	#page-navigation
+		.button
+			&:nth-of-type(2)
+				color: #fff
+
+				&:before
+					content: url('../images/arrow-right-white.svg')
+
+
+/* ///////////////////// Mobile ///////////////////// */
+
+@media (max-width: 768px)
+	.container
+		min-width: 250px
+		width: 100%
+
+	#header
+		padding: 38px 0 124px
+
+		&.projects-detail
+			padding-bottom: 38px
+
+	#primer
+		padding: 0 0 64px
+
+	#primer-image
+		.image
+			height: 201px
+
+	#contact
+		padding: 74px 0 54px
+
+		span
+			margin-bottom: 18px
+
+		h3
+			margin-bottom: 54px
+
+			a
+				font-size: 24px
+
+		.button
+			font-size: 14px
+			margin-top: 0px
+
+	#about, #what-i-believe-in, #expertise, #process
+		padding-bottom: 64px
+
+		span
+			margin-bottom: 18px
+
+		h3
+			font-size: 24px
+			margin-bottom: 30px
+
+		p
+			font-size: 16px
+			margin-bottom: 46px
+
+			&:nth-of-type(2)
+				margin-bottom: 0
+
+		&.projects-detail
+			padding-top: 52px
+			
+			h3
+				color: #fff
+				font-size: 24px
+
+			p
+				color: #626262
+				font-size: 16px
+
+	#selected-projects
+		margin-bottom: 34px
+
+		span
+			margin-bottom: 42px
+
+		.project
+			.image
+				height: 382px
+				margin-bottom: 38px
+
+			span
+				margin-bottom: 16px
+				font-size: 12px
+
+			h4
+				margin-bottom: 42px
+
+	#collaborations
+		span
+			margin-bottom: 20px
+
+		h3
+			margin-bottom: 62px
+
+		img
+			width: 150px
+
+			&:nth-of-type(odd)
+				margin-right: 62px 
+
+	#project-slider
+		.container
+			padding: 0
+
+			.project-slider
+				.project
+					height: 470px
+
+					.project-inner
+						top: 76px
+						width: 341px
+						padding-top: 50px
+						height: 268px
+
+						span
+							margin-bottom: 34px
+
+							span
+								margin-bottom: 0
+
+						.button
+							margin-top: 28px
+
+				.slick-prev, .slick-next
+					bottom: -58px
+
+			.project-slider-pagination
+				margin-top: 32px
+
+			&.projects-detail
+				.container
+					width: 100%
+					padding: 0
+
+				.project-slider
+					padding-bottom: 0
+
+	#statistics
+		padding-top: 48px
+
+		h3
+			margin-bottom: 48px
+
+		.statistics
+			.statistic
+
+				p
+					font-size: 16px
+					float: left
+					margin-left: 15px
+
+					span
+						font-size: 16px
+						color: #fff
+						left: 164px
+						right: auto
+
+				.col-sm-12
+					p
+						font-size: 16px
+						float: right
+						margin-right: 200px
+
+						span
+							font-size: 16px
+							color: #fff
+							left: auto
+							right: 0
+
+	#project-images
+		padding-top: 62px
+
+		.container
+			padding: 0
+
+		.col-xs-12
+			padding: 0
+
+		.image
+			height: 448px
+
+			&:nth-of-type(1)
+				margin-bottom: 30px
+

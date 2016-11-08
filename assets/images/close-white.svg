@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-5" y="13" width="37" height="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="37" height="1" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="-5.06497116" y="12.9350288" width="37" height="1"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="37" height="1" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Iteration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Portrait-Copy" transform="translate(-669.000000, -67.000000)" stroke-width="2" stroke="#979797" fill="#D8D8D8">
+            <g id="Group-3" transform="translate(669.000000, 67.000000)">
+                <g id="Group-2">
+                    <g id="Group">
+                        <use id="Rectangle-5" mask="url(#mask-2)" transform="translate(13.500000, 13.500000) rotate(45.000000) translate(-13.500000, -13.500000) " xlink:href="#path-1"></use>
+                        <use id="Rectangle-5" mask="url(#mask-4)" transform="translate(13.435029, 13.435029) rotate(135.000000) translate(-13.435029, -13.435029) " xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
